@@ -1,0 +1,89 @@
+\documentclass{beamer}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usetheme{Warsaw}
+
+\title
+{System pisania testów na platformie Android}
+\subtitle{Seminarium dyplomowe}
+\author{Filip Malinowski}
+\subject{Seminarium}
+
+
+\begin{document}
+
+  \begin{frame}
+	\titlepage
+  \end{frame}
+  \begin{frame}
+    \frametitle{Plan prezentacji}
+    \begin{itemize}
+    \item Opis projektu inżynierskiego
+    \item Cel projektu
+    \item Dostępne narzędzia
+    \item Postęp prac
+    \item Uzyskane wyniki
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Opis projektu inżynierskiego}
+    Docelowo projekt ma zawierać:
+    \begin{itemize}
+    \item aplikację na systemy Android
+    \item serwer do obsługi aplikacji
+    \end{itemize}
+    Aplikacje mają się komunikować przez Internet z serwerem oraz przesyłać do
+    niego odpowiedzi studentów. Serwer ma te dane obsłużyć i przedstawić w 
+    formacie odpowiednim dla prowadzącego.
+    
+  \end{frame}
+  \begin{frame}
+    \frametitle{Cel projektu}
+    Umożliwienie pisania testów na telefonach dając korzyści:
+    \begin{itemize}
+    \item prowadzącemu zajęcia
+    \item studentom
+    \item drzewom
+    \end{itemize}
+   	
+  \end{frame}
+  \begin{frame}
+    \frametitle{Dostępne narzędzia}
+    Do wykonania aplikacji na telefon:
+    \begin{itemize}
+    \item Android studio
+    \item QT
+    \end{itemize}
+    Do napisania serwera:
+    \begin{itemize}
+    \item Nginx
+    \item OpenLiteSpeed
+    \item Apache
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Postęp prac}
+    \begin{itemize}
+    \item Aplikacja komunikująca się z serwerem Apache
+    \item Skrypt do parsowania logów jako zastępstwo dla pełnoprawnego serwera
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+    \frametitle{Uzyskane wyniki}
+    \begin{itemize}
+    \item Pierwszy pomyślnie wykonany test
+    \item Drugi test będący katastrofą
+    \item Na obu testach piszących ok. 90 osób
+    \item Średnio 10 zapytań na sekundę
+    \end{itemize}
+  \end{frame}
+  \begin{frame}
+  	\frametitle{Koniec}
+    \begin{center}
+    \Huge Dzięuję za uwagę
+    \end{center}
+  \end{frame}
+% etc
+\end{document}
